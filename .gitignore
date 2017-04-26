@@ -1,0 +1,20 @@
+# vim swap files
+*.sw?
+
+# Default .gitignore with common Pythonic web ignores
+build/
+_build/
+dist/
+*.py[o,c]
+__pycache__
+*.egg
+*.egg-info
+.ropeproject
+
+# Logs
+*.log
+
+# pytest and tox cache
+.cache
+.tox
+.eggs
