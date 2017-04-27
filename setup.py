@@ -25,6 +25,7 @@ setup(
               if package.startswith('smelly_tokens')],
     install_requires=[
         'Django>=1.4',
+        'pytest-django',
     ],
     test_suite='setuptest.setuptest.SetupTestSuite',
     tests_require=[
