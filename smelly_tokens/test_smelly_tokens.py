@@ -17,7 +17,7 @@ NO_QUALITY_CHECK_FILE_MARK = '# smelly_tokens: noqa'
 
 
 class SmellyTokensTestCase(object):
-    _token = ''
+    _tokens = []
 
     def test_check_token_exists(self):
         errors = []
@@ -37,7 +37,7 @@ class SmellyTokensTestCase(object):
                             continue
                         if kind != NAME:
                             continue
-                        if token == self._token:
+                        if token in self._tokens:
                             errors.append("'{}' left at '{}', line {}".format(
                                 token, file, start[0]))
                     f.close()
@@ -46,12 +46,12 @@ class SmellyTokensTestCase(object):
 
 
 class EvalTokenTestCase(SmellyTokensTestCase, TestCase):
-    _token = 'eval'
+    _tokens = ['eval']
 
 
 class PdbTokenTestCase(SmellyTokensTestCase, TestCase):
-    _token = 'pdb'
+    _tokens = ['pdb', 'ipdb']
 
 
 class PrintTokenTestCase(SmellyTokensTestCase, TestCase):
-    _token = 'print'
+    _tokens = ['print']
