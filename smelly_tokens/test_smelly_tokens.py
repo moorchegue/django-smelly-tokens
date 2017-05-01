@@ -22,7 +22,7 @@ class SmellyTokensTestCase(object):
     def test_check_token_exists(self):
         errors = []
         for module in getattr(settings, 'SMELLY_TOKENS_APPLICATIONS', []):
-            module_dir = pkgutil.get_loader(module).filename
+            module_dir = pkgutil.get_loader(module).get_filename()
             for directory, _, files in os.walk(module_dir):
                 if directory in getattr(
                         settings, 'SMELLY_TOKENS_EXCLUDE_DIRS', []):
