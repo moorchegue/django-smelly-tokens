@@ -3,3 +3,5 @@ include *.rst
 include *.yml
 include *.in
 include VERSION
+recursive-include doc *.py *.rst Makefile
+
