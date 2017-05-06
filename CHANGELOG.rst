@@ -1,7 +1,7 @@
-0.4.2 (unreleased)
+0.4.2 (2017-05-06)
 ------------------
 
-- Nothing changed yet.
+- readthedocs.org based documentation.
 
 
 0.4.1 (2017-05-06)
