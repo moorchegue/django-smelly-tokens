@@ -1,35 +1,16 @@
-0.4.3 (unreleased)
-------------------
+Changelog
+=========
 
-- Nothing changed yet.
-
-
-0.4.2 (2017-05-06)
-------------------
-
-- readthedocs.org based documentation.
-
-
-0.4.1 (2017-05-06)
-------------------
-
-- Documentation.
-
-
-0.4.0 (2017-05-06)
-------------------
+0.4 (2017-05-06)
+----------------
 
 - Introduced zest.releaser.
 - Released to PyPI.
+- Documentation.
 
 
-0.3.1 (2017-05-02)
-------------------
+0.3 (2017-05-02)
+----------------
 
 - Python 2 / 3 compatibility.
-
-
-0.3.0 (2017-04-27)
-------------------
-
 - Multiple tokens per class.

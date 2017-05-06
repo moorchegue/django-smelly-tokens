@@ -81,4 +81,4 @@ To create a new type of smelly token test case, inherit
 References
 ==========
 
-* `Full documentation <https://pythonhosted.org/django-smelly-tokens/>`__;
+* `Full documentation <https://django-smelly-tokens.readthedocs.io/>`__;

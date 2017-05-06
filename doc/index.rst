@@ -11,6 +11,7 @@ Welcome to django-smelly-tokens's documentation!
    :caption: Contents:
 
    README
+   CHANGELOG
 
 
 Indices and tables
