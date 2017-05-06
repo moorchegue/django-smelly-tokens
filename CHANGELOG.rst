@@ -1,7 +1,7 @@
-0.4.1 (unreleased)
+0.4.1 (2017-05-06)
 ------------------
 
-- Nothing changed yet.
+- Documentation.
 
 
 0.4.0 (2017-05-06)
