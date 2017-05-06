@@ -11,7 +11,7 @@ Installation
 
 .. code-block:: bash
 
-    pip install -e "git+https://github.com/moorchegue/django-smelly-tokens.git@master#egg=django-smelly-tokens"
+    pip install django-smelly-tokens
 
 
 Usage
@@ -37,10 +37,10 @@ Run ``django-admin.py test`` or ``./manage.py test`` or ``py.test`` or ``nose``
 or whatever runner you're using.
 
 
-Exception
-=========
+Exceptions
+==========
 
-To silence known errors PEP8-style ``noqa`` comment could be used in the
+To silence known errors PEP8-style ``noqa`` comment can be used in the
 beginning of a file:
 
 
@@ -76,3 +76,9 @@ To create a new type of smelly token test case, inherit
    class OOPTokensTestCase(SmellyTokensTestCase, TestCase):
    """ OOP hater. """
    _tokens = ['class', 'object', 'Object']
+
+
+References
+==========
+
+* `Full documentation <https://pythonhosted.org/django-smelly-tokens/>`__;
