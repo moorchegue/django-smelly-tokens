@@ -20,7 +20,7 @@ setup(
     long_description=readme + '\n\n' + changelog,
     author='murchik',
     author_email='murchik@protonmail.com',
-    url='https://github.com/moorchegue/django-smelly-tokens',
+    url='https://gitlab.com/murchik/django-smelly-tokens',
     packages=[package for package in find_packages()
               if package.startswith('smelly_tokens')],
     install_requires=[
