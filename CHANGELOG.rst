@@ -1,10 +1,10 @@
 Changelog
 =========
 
-0.4.4 (unreleased)
+0.4.4 (2018-06-06)
 ------------------
 
-- Nothing changed yet.
+- #movingtogitlab
 
 
 0.4 (2017-05-06)
