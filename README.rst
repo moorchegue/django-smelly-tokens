@@ -5,6 +5,14 @@ Django Smelly Tokens
 It is sometimes possible to tell that code stinks even without looking at it.
 This Django app tries to accomplish that.
 
+.. image:: https://gitlab.com/murchik/django-smelly-tokens/badges/master/build.svg
+    :target: https://gitlab.com/murchik/django-smelly-tokens/commits/master
+    :alt: Pipeline status
+
+.. image:: https://readthedocs.org/projects/django-smelly-tokens/badge/?version=latest
+    :target: https://django-smelly-tokens.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation status
+
 
 Installation
 ============
